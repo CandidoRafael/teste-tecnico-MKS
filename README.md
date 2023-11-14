@@ -1,27 +1,30 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2>Desafio para Vaga Front-End na MKS Sistemas</h2>
 
-Currently, two official plugins are available:
+O objetivo principal desse teste é avaliar sua capacidade de escrever código limpo, bem testado e reutilizável. Ao terminar, faça o deploy da aplicação e mande-nos o link.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2>Objetivos</h2>
 
-## Expanding the ESLint configuration
+Para esse desafio, você deve consumir uma API REST de produtos para exibir a lista de produtos da loja.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+A aplicação deve conter um carrinho.
 
-- Configure the top-level `parserOptions` property like this:
+Loja: A lista de produtos deve ser buscada da API, e usar um shimmer/skeleton enquanto estiver em loading.
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+Carrinho: O carrinho deve conter todos os produtos selecionados, juntamente com a opção de aumentar a quantidade de cada produto selecionado.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Utilizar o Jest e a testing-library para realizar os testes unitários.
+
+## Ferramentas Utilizadas:
+
+<ol>
+   <li>TypeScript</li>
+   <li>React</li>
+   <li>React-Query</li>
+   <li>Jest</li>
+   <li>Styled-Components</li>
+   <li>Material UI</li>
+   <li>Zustand</li>
+   <li>Axios</li>
+</ol>
