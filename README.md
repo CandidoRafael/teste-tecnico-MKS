@@ -2,7 +2,7 @@
 
 <h2>Desafio para Vaga Front-End na MKS Sistemas</h2>
 
-O objetivo principal desse teste é avaliar sua capacidade de escrever código limpo, bem testado e reutilizável. Ao terminar, faça o deploy da aplicação e mande-nos o link.
+O objetivo principal desse teste é avaliar sua capacidade de escrever código limpo, bem testado e reutilizável. 
 
 <h2>Objetivos</h2>
 
