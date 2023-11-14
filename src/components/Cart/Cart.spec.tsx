@@ -5,7 +5,7 @@ import Cart from './Cart';
 const mockProduct = cardPropsMock
 
 describe('<Cart />', () => {
-  it('deve renderizar corretamente o componente Cart', () => {
+  it('should render the Cart correctly', () => {
     render(<Cart product={mockProduct} />);
     
     expect(screen.getByText('Produto 1')).toBeInTheDocument();
