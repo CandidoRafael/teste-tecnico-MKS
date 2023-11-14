@@ -28,3 +28,14 @@ Utilizar o Jest e a testing-library para realizar os testes unitários.
    <li>Zustand</li>
    <li>Axios</li>
 </ol>
+
+<h2>Deploy: https://testetecnicomks.vercel.app/</h2>
+
+Se você quiser rodar o projeto na sua máquina, siga estes passos:
+<ul>
+   <li>git clone (url do repositório)</li>
+   <li>npm install</li>
+   <li>npm run dev</li>
+</ul>
+
+
